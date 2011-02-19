@@ -1,0 +1,7 @@
+def num = 0
+new File("EachLine.groovy").eachLine { line ->
+	num++
+	println "$num: $line"
+}
+
+不要误会只是把源文件内容也用了一下而已。

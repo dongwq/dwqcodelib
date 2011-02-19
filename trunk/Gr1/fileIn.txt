@@ -17,6 +17,9 @@ import java.util.Vector;
 
 
 
+
+
+
 /*虽然现在用APACHE COMMONS DBCP可以非常方便的建立数据库连接池，
 
  但是像这篇文章把数据库连接池的内部原理写的这么透彻，注视这么完整，

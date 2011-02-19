@@ -1,0 +1,10 @@
+<list>
+  <input>
+    <name class="string">名称</name>
+    <id class="string">name1</id>
+  </input>
+  <input>
+    <name class="string">Dong</name>
+    <id class="string">ejfef</id>
+  </input>
+</list>

@@ -53,9 +53,9 @@ class ListMapRangeTest
 		println "";
 		bSet.each
 		{ print "$it, "; };
-		
+
 		def b = a.unique();
-		
+
 		println b;
 	}
 
@@ -81,6 +81,11 @@ class ListMapRangeTest
 		}
 
 		assert map == ['a':2, 'b':4]
+		
+		def cd = "varCd"
+		def mapb = [(cd):"cdv", cd:"noBraceCD"];
+		println mapb
+		
 	}
 	@Test
 	public void testMapGroupBy()
@@ -100,7 +105,7 @@ class ListMapRangeTest
 		println gByCity
 		println gByCity['La']
 	}
-	
+
 	@Test
 	public void testRangeFromTo()
 	{

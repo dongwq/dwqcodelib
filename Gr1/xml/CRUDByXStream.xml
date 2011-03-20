@@ -1,0 +1,12 @@
+<person>
+  <firstname>dong</firstname>
+  <lastname>weiqang</lastname>
+  <phone>
+    <code>131328</code>
+    <number>13132845</number>
+  </phone>
+  <fax>
+    <code>23</code>
+    <number>2344</number>
+  </fax>
+</person>

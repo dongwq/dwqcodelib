@@ -1,4 +1,5 @@
-package com.dongwq.test;
+package com.dongwq.xml
+;
 
 
 import static org.junit.Assert.*

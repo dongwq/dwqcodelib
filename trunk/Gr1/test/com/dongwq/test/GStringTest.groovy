@@ -40,6 +40,12 @@ class GStringTest {
 	public void testGOper()
 	{
 		println "text" * 3<<" hello";
+		
+		def usedActions = ['javachat','taglibUsageDemo','standardDemoForIe6','zTreeDemo','standardDemo','dwrDemo']
+		if( "javachat" in usedActions)
+			println "javachat"
+		else
+			println "actionName is actionName";
 	}
 	@Test
 	public void testNullBlank()

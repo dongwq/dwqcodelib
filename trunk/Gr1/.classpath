@@ -11,5 +11,6 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="lib" path="E:/JavaLibDoc/JGroup/jgroups-2.12.0.Beta1.jar"/>
 	<classpathentry kind="lib" path="/GrailTest/lib/ojdbc14.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/groovyWS"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

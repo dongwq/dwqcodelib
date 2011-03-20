@@ -81,11 +81,10 @@ class ListMapRangeTest
 		}
 
 		assert map == ['a':2, 'b':4]
-		
+
 		def cd = "varCd"
 		def mapb = [(cd):"cdv", cd:"noBraceCD"];
 		println mapb
-		
 	}
 	@Test
 	public void testMapGroupBy()
@@ -112,5 +111,18 @@ class ListMapRangeTest
 		def a = 1..50
 		println a.from
 		println a.to
+	}
+
+	@Test
+	public void useWith()
+	{
+		def letters = ['a', 'b', 'c']
+		def range = 'b'..'d'
+		letters.with
+		{
+			add 'd'
+			remove 'a'
+		}
+		assert letters == range
 	}
 }

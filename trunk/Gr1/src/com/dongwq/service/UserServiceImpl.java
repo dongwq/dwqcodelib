@@ -1,5 +1,6 @@
 package com.dongwq.service;
 
+
 public class UserServiceImpl implements UserService {
 
 	@Override
@@ -7,4 +8,5 @@ public class UserServiceImpl implements UserService {
 		return "dwq a" + str;
 	}
 
+	
 }

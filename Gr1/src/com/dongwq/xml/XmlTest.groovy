@@ -1,6 +1,4 @@
-package com.dongwq.xml
-;
-
+package com.dongwq.xml;
 
 import static org.junit.Assert.*
 import groovy.xml.MarkupBuilder
@@ -70,6 +68,7 @@ class Input
 {
 	def name, id;
 }
+
 
 class Author
 {

@@ -2,6 +2,8 @@ package com.dongwq.lang
 
 import org.junit.Test
 
+
+
 class CurryTest
 {
 
